@@ -35,6 +35,9 @@ body{
     width: 100%;
     box-shadow: 0 0 10px black;
     border-radius: 20px;
+    min-width: 500px;
+    overflow-y: auto; 
+    
 }
 .main-content .quote{
     font-size: 1.5rem;
@@ -45,7 +48,8 @@ body{
 .main-content .author{
     color: rgb(213, 30, 30);
     font-size: 1.6rem;
-
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 button{
@@ -56,6 +60,13 @@ button{
     border-radius: 10px;
     font-weight: 200;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
+.cont2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
 
